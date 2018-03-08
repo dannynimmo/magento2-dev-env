@@ -7,7 +7,7 @@ This repo contains a quick & simple way to run a development environment for Mag
 
 1. Download the latest [`docker-compose.yml`](docker-compose.yml) file to your Magento 2 project root
     ```bash
-    curl -o https://raw.githubusercontent.com/dannynimmo/magento2-dev-env/master/docker-compose.yml
+    curl -O https://raw.githubusercontent.com/dannynimmo/magento2-dev-env/master/docker-compose.yml
     ```
 1. Bring up the containers. By default the webserver will be accessible over port 8001, and the database over port 33061 (feel free to change these).
     ```bash

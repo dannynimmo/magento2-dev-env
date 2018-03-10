@@ -15,7 +15,7 @@ services:
       - MYSQL_ROOT_PASSWORD=root
 
   app:
-    image: dannynimmo/magento2-php:7.1.15-0.1.0-dev.1
+    image: dannynimmo/magento2-php:0.1.0-dev.2
     restart: always
     volumes:
       - .:/var/www/html
@@ -24,7 +24,7 @@ services:
       - db
 
   web:
-    image: dannynimmo/magento2-nginx:1.12.2-0.1.0-dev.1
+    image: dannynimmo/magento2-nginx:0.1.0-dev.2
     restart: always
     volumes:
       - .:/var/www/html

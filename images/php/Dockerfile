@@ -1,5 +1,4 @@
-ARG PHP_VERSION
-FROM php:${PHP_VERSION}-fpm-jessie
+FROM php:7.1.15-fpm-jessie
 
 RUN buildDependencies=" \
         libcurl4-openssl-dev \
